@@ -4,6 +4,8 @@ param (
 [Parameter(Mandatory)]
 [string]$DisplayName,
 [Parameter(Mandatory)]
+[string]$Group,
+[Parameter(Mandatory)]
 	#[System.Net.IPAddress]$address,
 $address,
 [Parameter(Mandatory)]
@@ -11,6 +13,7 @@ $address,
 			)
 
 New-NetFirewallRule -DisplayName $DisplayName `
+										-Group $Group `
 										-Description $Description `
 										-Direction Outbound `
 										-LocalPort Any `
