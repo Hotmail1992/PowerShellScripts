@@ -59,3 +59,4 @@ $os_params = @{'ClassName'='Win32_OperatingSystem'
 } #PROCESS
 END {}
 } #function
+# новый комментарий
