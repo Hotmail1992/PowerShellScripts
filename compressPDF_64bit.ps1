@@ -15,3 +15,4 @@ Param (
              -dNOPAUSE `
             -dQUIET `
             -sOutputFile="$outputfile" "$inputfile"
+            # это коммент
