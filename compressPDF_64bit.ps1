@@ -17,3 +17,4 @@ Param (
             -sOutputFile="$outputfile" "$inputfile"
             # это коммент
             # новый же коммент
+            # для проверки строки
