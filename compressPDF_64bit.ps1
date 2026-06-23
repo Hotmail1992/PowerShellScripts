@@ -1,3 +1,5 @@
+# Включение строго режима 
+Set-StrictMode -Version Latest
 # Скрипт для сжатия файлов pdf с помощью ghostscript
 
 Param (
